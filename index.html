@@ -60,8 +60,8 @@
 			</section>
 
 			<section id="active-game">
-				<article>
-					<h3>You won, <span id="winner-name">PLAYER NAME</span>!</h3>
+				<article id="game-over">
+					<h2>You won, <span id="winner-name">PLAYER NAME</span>!</h2>
 					<p>Click "Start New Game" above, to start a new game!</p>
 				</article>
 
@@ -69,18 +69,18 @@
 					It's your turn
 					<span id="active-player-name">PLAYER NAME</span>!
 				</p>
-				<ol>
-					<li></li>
-					<li></li>
-					<li></li>
-
-					<li></li>
+				<ol id="game-board">
+					<li class="disabled">X</li>
 					<li></li>
 					<li></li>
 
 					<li></li>
+					<li class="disabled">O</li>
+					<li></li>
+
 					<li></li>
 					<li></li>
+					<li class="disabled">X</li>
 				</ol>
 			</section>
 		</main>
